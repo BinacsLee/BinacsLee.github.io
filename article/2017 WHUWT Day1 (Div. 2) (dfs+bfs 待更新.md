@@ -1,6 +1,6 @@
 # 2017-02-13
 
-# 题目链接 https://vjudge.NET/contest/149928
+# 题目链接 https://vjudge.net/contest/149928
 
 
 ## A poj1979
