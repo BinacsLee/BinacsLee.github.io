@@ -2,7 +2,7 @@
 
 Start running from 2017.2.17
 
-### Hello 
+### [Click here to see my article about the code](BinacsLee.github.io/article)
 
 
 
