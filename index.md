@@ -2,7 +2,7 @@
 
 Start running from 2017.2.17
 
-### [Click here to see my article about the code](BinacsLee.github.io/article)
+### [Click here to see my article about the code（constructing](www.baidu.com)
 
 
 
