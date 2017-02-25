@@ -50,7 +50,7 @@ WA 1 dijkstra算法中</br>
 求最小生成树的最大权的边 (有重边</br>
 Solution 1 重边 故dijkstra</br>
     
-    //dijkstra可以解决重边问题 在此只需在函数体内记录最大值即可;
+    EXP 1 //dijkstra可以解决重边问题 在此只需在函数体内记录最大值即可;
     
     
 Solution 2 二分边权</br>
