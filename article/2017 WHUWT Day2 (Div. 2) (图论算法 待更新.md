@@ -2,45 +2,49 @@
 ### 题目链接 https://vjudge.NET/contest/149929
 
 ## A poj2139
-N个奶牛共参演M个电影 第一行输入N和M
-第2-M+1行输入第i个电影参演的奶牛编号 度数与奶牛间关联有关(最短路 
-输出拥有平均最短路的奶牛的平均最短路*100
-Floyd-Warshall O(N^3)  (通常n<=200 这300也可以了
-WA1没有乘100= =
+N个奶牛共参演M个电影 第一行输入N和M</br>
+第2-M+1行输入第i个电影参演的奶牛编号 度数与奶牛间关联有关(最短路 </br>
+输出拥有平均最短路的奶牛的平均最短路*100</br>
+Floyd-Warshall O(N^3)  (通常n<=200 这300也可以了</br>
+WA1没有乘100= =</br>
 
 
 ## B poj3259
-N个农场内有M个路径(双向)和W个虫洞(单向负权) 求在该农场内能否走某条路径(回路 使总权值负(时间比之前到这早
-有输出YES 没有NO
-判断图是否存在负权环
-Solution 1 Bellman-Ford判定(挑战程序设计竞赛//todo
-Solution 2 spfa 上述算法使用队列优化
-Solution 3 Floyd-Warshall O(N^3) //todo
-EXP 1算法实现细节= =
+N个农场内有M个路径(双向)和W个虫洞(单向负权) 求在该农场内能否走某条路径(回路 使总权值负(时间比之前到这早</br>
+有输出YES 没有NO</br>
+判断图是否存在负权环</br>
+Solution 1 Bellman-Ford判定(挑战程序设计竞赛//todo</br>
+Solution 2 spfa 上述算法使用队列优化</br>
+Solution 3 Floyd-Warshall O(N^3) //todo</br>
+EXP 1算法实现细节= =</br>
 
 
 ## C poj3268
-N个农场N条牛 每个牛去牛x那里然后返回 农场间为有向通道
-输出去-返回路径长度总和最大的值
-Dijkstra (spfa 但bf计算量较大超时
-返回:单源最短路
-去:矩阵转置后 单源最短路
-
-
+N个农场N条牛 每个牛去牛x那里然后返回 农场间为有向通道</br>
+输出去-返回路径长度总和最大的值</br>
+Dijkstra (spfa 但bf计算量较大超时</br>
+返回:单源最短路</br>
+去:矩阵转置后 单源最短路</br>
+WA 1 dijkstra算法中</br>
+    
+    if(!used[i]&&(v==-1||d[v]<d[i])) v=i;//wrong!!
+    if(!used[i]&&(v==-1||d[i]<d[v])) v=i;//浪费了24分钟QAQ
+   
+    
 ## D poj1258
-最小生成树
-标准Prim
+最小生成树</br>
+标准Prim</br>
 
 
 ## E poj2377
-最大生成树
-记录负权使用Prim ／ Dijkstra
+最大生成树</br>
+记录负权使用Prim ／ Dijkstra</br>
 
 
 ## F poj2395
-求最小生成树的最大权的边 (有重边
-Solution 1 重边 故dijkstra
-Solution 2 二分边权
+求最小生成树的最大权的边 (有重边</br>
+Solution 1 重边 故dijkstra</br>
+Solution 2 二分边权</br>
 
 
 
