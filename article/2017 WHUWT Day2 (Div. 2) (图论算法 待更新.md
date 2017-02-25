@@ -27,9 +27,11 @@ Dijkstra (spfa 但bf计算量较大超时</br>
 去:矩阵转置后 单源最短路</br>
 WA 1 dijkstra算法中</br>
     
-    if(!used[i]&&(v==-1||d[v]<d[i])) v=i;//wrong!!
-    if(!used[i]&&(v==-1||d[i]<d[v])) v=i;//浪费了24分钟QAQ
-   
+    
+    if(!used[i]&&(v==-1||d[v]<d[i])) v=i;//wrong!!
+    if(!used[i]&&(v==-1||d[i]<d[v])) v=i;//浪费了24分钟QAQ
+    
+    
     
 ## D poj1258
 最小生成树</br>
