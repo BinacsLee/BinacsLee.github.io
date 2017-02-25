@@ -1,5 +1,5 @@
 ### 2017-02-14
-### 题目链接 https://vjudge.NET/contest/149929
+### 题目链接 https://vjudge.net/contest/149929
 
 ## A poj2139
 N个奶牛共参演M个电影 第一行输入N和M</br>
@@ -12,7 +12,7 @@ WA1没有乘100= =</br>
 ## B poj3259
 N个农场内有M个路径(双向)和W个虫洞(单向负权) 求在该农场内能否走某条路径(回路 使总权值负(时间比之前到这早</br>
 有输出YES 没有NO</br>
-判断图是否存在负权环</br>
+ * 判断图是否存在负权环 * </br>
 Solution 1 Bellman-Ford判定(挑战程序设计竞赛//todo</br>
 Solution 2 spfa 上述算法使用队列优化</br>
 Solution 3 Floyd-Warshall O(N^3) //todo</br>
@@ -39,13 +39,20 @@ WA 1 dijkstra算法中</br>
 
 
 ## E poj2377
-最大生成树</br>
+ * 最大生成树 * </br>
 记录负权使用Prim ／ Dijkstra</br>
 
-
+    
+    本题使用dijkstra 将cmp函数内的 < 改成 > 即可(即从大到小取边
+    
+    
 ## F poj2395
 求最小生成树的最大权的边 (有重边</br>
 Solution 1 重边 故dijkstra</br>
+    
+    dijkstra可以解决重边问题 在此只需在函数体内记录最大值即可;
+    
+    
 Solution 2 二分边权</br>
 
 
