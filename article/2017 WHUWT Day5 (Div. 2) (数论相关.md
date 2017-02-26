@@ -46,4 +46,7 @@ EXP 1 此类型记住
 ## F poj 3641
 快速幂取模
 EXP 1 边界条件
+    
+    if(x==1||x==2||x==3) return true;
+    
 
