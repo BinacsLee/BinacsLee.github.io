@@ -25,15 +25,15 @@ y并查集+快速幂取模</br>
 map+并查集</br>
 WA 1 
     
-    //find 函数中使用路经压缩 否则TLE到死
-    return father[x]=find(father[x]);
+    
+    return father[x]=find(father[x]);//find 函数中使用路经压缩 否则TLE到死
     
-    另
-    for(int i=1;i<=100000;i++){
+    
+    for(int i=1;i<=100000;i++){   //写成了for(int i=1;i<=2*n;i++) 同样TLE
          num[i]=1;father[i]=i;
     }
-    写成了for(int i=1;i<=2*n;i++)
-    同样TLE
+    
+    
     
 ### F HDU - 3038//todo
 
