@@ -79,6 +79,13 @@ dijkstra 输入处理有点麻烦 闲着有空可以考虑再看看
 ### M POJ - 1062 
 昂贵的聘礼典型最短路 </br>
 处理注意 因为要求所有参与兑换的人的等级差值不能超过m 故枚举所有最高等级数进行dijkstra 最后得到最小值
+       
+    for(int i=1;i<=n;i++){
+        if(levv<lev[i]||levv-lev[i]>m) vis[i]=true;
+        else vis[i]=false;
+    }
+    //不能在循环内修改cost值 一开始这样WA 注意这里初始化vis的巧妙作用
+    
 ### N POJ - 1847
 简单dijkstra 
 ### O LightOJ - 1074
