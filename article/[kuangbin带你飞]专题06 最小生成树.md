@@ -69,3 +69,16 @@ MLE好几次.. 问题出在bfs 经验教训是:
 模版题
 
 
+</br>
+
+
+ 1. Pro.A CE 边edge类型的cmp函数不用写&
+ 2. Pro.B,D,E RE es数组开太小了
+ 3. Pro.H 数组下标写错WA
+ 4. Pro.J "Borg Maze POJ - 3026" 值得记忆 bfs部分node e,ee定义在while循环内MLE 定义在前面就AC
+ 
+ 
+ 不知道为啥M G++WA C++AC</br>
+ 另外 K放在生成树专题
+ 
+ 
