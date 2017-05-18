@@ -2,6 +2,6 @@
 
 
 
-F  匹配算法
-NO  多重匹配
-RS  带花树
+F  匹配算法Hopcroft-Carp  </br>
+NO  多重匹配</br>
+RS  带花树</br>
