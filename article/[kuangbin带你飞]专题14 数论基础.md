@@ -14,7 +14,7 @@ todo<br>
 ### C - Aladdin and the Flying Carpet LightOJ - 1341  </br>
 唯一分解定理 素数
 <br><br>
-### D   </br>  mark
+### D - Sigma Function LightOJ - 1336   </br>  mark
 背景: 给定正整数n 其因式分解为 p1^e1 * p2^e2 * -- *pk^ek<br>
 则n的所有约数之和可用公式表示为f(n) [(p1^(e1+1) - 1)/(p1-1)]* .. <br>
 现输入n 输出从1到n 的f(i)值为偶数的个数<br>
