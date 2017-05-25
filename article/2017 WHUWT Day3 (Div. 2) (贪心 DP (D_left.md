@@ -27,23 +27,23 @@
 
 
 ## B Codeforces 739 A
-构造
-题意...输入序列长度n 和所给参数组数m
-每m行 第x-第y的位置上没有出现过的最小的自然数为该组mex(含0
-输出可能的一个序列
+构造<br>
+题意...输入序列长度n 和所给参数组数m<br>
+每m行 第x-第y的位置上没有出现过的最小的自然数为该组mex(含0<br>
+输出可能的一个序列<br>
 
 //
 
 
 
 ## C Codeforces 762 B
-only-usb only-ps/2 both的电脑共a b c台
-m个鼠标 m行输入价值和类型
-输出适配个数和最小cost
-使用一个结构数组 记录种类价值按价值排序
-WA 1 数组开的太小 RE( 一般+5
-EXP 1 一个数组
-EXP 2 想好条件怎么分
+only-usb only-ps/2 both的电脑共a b c台<br>
+m个鼠标 m行输入价值和类型<br>
+输出适配个数和最小cost<br>
+使用一个结构数组 记录种类价值按价值排序<br>
+WA 1 数组开的太小 RE( 一般+5<br>
+EXP 1 一个数组<br>
+EXP 2 想好条件怎么分<br>
 
 ## D Codeforces 671 A
 如果一个人去捡了某个瓶子那么他之后肯定会走到箱子的位置上去<br>
@@ -58,14 +58,14 @@ EXP 2 想好条件怎么分
 
 
 ## E Codeforces 698 A
-dp 
-状态初始化 状态转移 
-WA 1 数组开的小
+dp <br>
+状态初始化 状态转移 <br>
+WA 1 数组开的小<br>
 
 
 
 ## F Codeforces 756B
-dp
-EXP 1 想好条件怎么分
+dp<br>
+EXP 1 想好条件怎么分<br>
 
 
