@@ -40,5 +40,14 @@ bfs
 人物初始位置在原点 单位时间只能上下左右走一步 不能对角移动
 
 
+## D poj3718
+next_permutation
 
+
+
+## E poj3187
+类似斐波那契数列的应用 同时结合next_permutation
+
+## F poj3050
+简单dfs
 
