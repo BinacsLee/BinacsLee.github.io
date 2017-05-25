@@ -1,6 +1,7 @@
 ###2017-02-18 
 ###题目链接 https://vjudge.net/contest/149933
-// G H I 待解决
+
+// (H) I 待解决
 
 
 ## A CodeForces - 377A
@@ -62,7 +63,9 @@ EXP 1 vis由bool数组改为int数组(初始化0 每次计算连通量时给vis�
     
     
     
-    
+## H - String Problem CodeForces - 33B 
 
-
+不知道为啥老RE啊。。。崩溃
+<br><br>
+I没写
 
