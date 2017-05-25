@@ -45,4 +45,24 @@ dfs </br>
 EXP 1 vis由bool数组改为int数组(初始化0 每次计算连通量时给vis赋值为id 减少重复dfs计算次数 </br>
 一开始思路错了 抽象想的时候误以为某个’*‘可以被多次访问了= =
     
+## G - Rivals SPOJ - RIVALS
+快速幂 另外有点数学结论的感觉？？
+    
+        for(int i=1;i<=2*1e6;i++)
+        fact[i]=(fact[i-1]*i)%mod;
+        int t;
+        cin>>t;
+        while(t--){
+            int n,m;
+            scanf("%d%d",&n,&m);
+            ll s=(fact[n+m]*mod_pow(fact[n],mod-2))%mod;
+            s=s*mod_pow(fact[m],mod-2);
+            printf("%lld\n",s%mod);
+        }
+    
+    
+    
+    
+
+
 
