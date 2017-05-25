@@ -9,11 +9,11 @@ Floyd-Warshall O(N^3)  (通常n<=200 这300也可以了</br>
 WA1没有乘100= =</br>
 
 
-## B poj3259
+## B poj3259  spfa经典应用 MARK
 N个农场内有M个路径(双向)和W个虫洞(单向负权) 求在该农场内能否走某条路径(回路 使总权值负(时间比之前到这早</br>
 有输出YES 没有NO</br>
  *** 判断图是否存在负权环 *** </br>
-Solution 1 Bellman-Ford判定(挑战程序设计竞赛//todo</br>
+Solution 1 Bellman-Ford判定(挑战程序设计竞赛</br>
 Solution 2 spfa 上述算法使用队列优化</br>
 Solution 3 Floyd-Warshall O(N^3) //todo</br>
 EXP 1算法实现细节= =</br>
