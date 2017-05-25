@@ -33,8 +33,31 @@ WA 1 处理边界条件n==2
 小数(循环 化分数
 
 RE (
-//todo 
-
+        
+        
+        int zi=0,mu=1;
+        for(int i=2;i<s.size();i++){
+            if(s[i]=='.') break;
+            zi=zi*10+s[i]-'0';
+            mu*=10;
+        }
+        int div=10;
+        int minmu=INF;
+        int anszi,ansmu;
+        while(mu>=div){
+            int fenzi=zi-zi/div;
+            int fenmu=mu-mu/div;
+            int g=gcd(fenzi,fenmu);
+            if(fenmu/g<minmu){
+                minmu=fenmu/g;
+                anszi=fenzi/g;
+                ansmu=fenmu/g;
+            }
+            div*=10;
+        }
+        printf("%d/%d\n",anszi,ansmu);
+        
+        
 EXP 1 此类型记住
 
 
