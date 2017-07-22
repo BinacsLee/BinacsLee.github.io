@@ -15,9 +15,9 @@ spfa最短路 建图方式使用每个点/每行列间连边做更简单一点 �
 ### C - Ciel and Duel CodeForces - 321B <br>
 卡牌攻击<br>
 贪心： 分两种情况
-    1. 没有造成抵消后的完整伤害 显然此时最大的B对最小的Aatt可使总结果最大
-    2. 造成了完整伤害 则从AdefAatt左开始扫描 循环cnt3++ 先判是否满足大于Adef else判和Aatt else完整伤害 若cnt1 cnt2个都达到 flag=true
-    3. flag=true则输出二者最大值 否则输出第一个计算结果
+1. 没有造成抵消后的完整伤害 显然此时最大的B对最小的Aatt可使总结果最大
+2. 造成了完整伤害 则从AdefAatt左开始扫描 循环cnt3++ 先判是否满足大于Adef else判和Aatt else完整伤害 若cnt1 cnt2个都达到 flag=true
+3. flag=true则输出二者最大值 否则输出第一个计算结果
 
 
 
