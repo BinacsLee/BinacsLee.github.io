@@ -19,5 +19,16 @@ spfa最短路 建图方式使用每个点/每行列间连边做更简单一点 �
 2. 造成了完整伤害 则从AdefAatt左开始扫描 循环cnt3++ 先判是否满足大于Adef else判和Aatt else完整伤害 若cnt1 cnt2个都达到 flag=true
 3. flag=true则输出二者最大值 否则输出第一个计算结果
 
+### E - Scheme CodeForces - 22E
+求图加上多少边形成强连通图<br>
+(因为对输出有要求 故第一次从入度为0的点dfs求连通量后记录末尾点st ed 相当于缩点)<br>
+第二次从未被访问过的点开始dfs 继续记录st和ed<br>
+最后把这些点加上边即可(注意dfs里col数组用法)<br>
 
+### F 没人做//todo
+
+<br>
+
+### G - Dual Core CPU POJ - 3469 
+最小割 //todo
 
