@@ -32,3 +32,12 @@ spfa最短路 建图方式使用每个点/每行列间连边做更简单一点 �
 ### G - Dual Core CPU POJ - 3469 
 最小割 //todo
 
+### H - Word Rings UVALive - 3531 
+字符串头俩字符与后俩字符连边 边长为字符串长度(>=2) 要求能够形成的和最大的正环<br>
+二分枚举+spfa判环 注意这里spfa的写法<br>
+
+### I - Double NP-hard UVA - 10984 
+好像没啥人做//todo
+<br><br>
+### J - The Great Wall Game UVALive - 3276 
+
