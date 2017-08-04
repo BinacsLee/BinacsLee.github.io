@@ -1,6 +1,7 @@
 ## 题目链接 https://vjudge.net/contest/167882
 
-### A - Binary Tree on Plane CodeForces - 277E  <br>
+DFGIJ
+### A - Binary Tree on Plane CodeForces - 277E  <br>
 二维平面从上到下多个点 输入坐标判断是否可以形成一个二叉树 输出可以形成的最小总边长<br>
 一开始想的是二分匹配/多重匹配 还是图样 没做几道题- - <br>
 最小费用最大流：拆点i/i+n 源点0 汇点2*n+1; <br>
