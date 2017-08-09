@@ -6,5 +6,5 @@
 
 
 ### B - Freelancer's Dreams CodeForces - 605C 
-线性规划+对偶+三分
-
+线性规划+对偶+三分<br>
+maximum p∗x+q∗y --->  ai∗x+bi∗y<=1
