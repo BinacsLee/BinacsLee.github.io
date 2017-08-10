@@ -1,5 +1,5 @@
 ## 题目链接 https://vjudge.net/contest/167878#problem
-BC
+BCG
 
 ### A - Arif in Dhaka (First Love Part 2) UVA - 10294 
 polya定理 <br>
@@ -50,4 +50,28 @@ SG (和记忆化搜索？？)
 考虑熊移动有一定的规律性/可以规律表示<br>
 矩阵快速幂 构造矩阵即可<br>
 矩阵struct不初始化0也会WA... 注意了 标准化过程
+### G - Smart Cheater CodeForces - 150C 
+线段树//todo
+### H - Subway Innovation CodeForces - 371E 
+输入包含n个车站的一维坐标 目的是留下k个车站使得k个车站两两之间的距离和最小 输出这k个车站的输入编号<br>
+直观易知 这k个车站是连续车站应该是最优解 接下来要找以哪个为起点的连续k个车站是所求答案<br>
+直接暴力O(nk)要T 现考虑起点从左向右移动时结果的变化<br>
+显然利用前缀和即可
 
+### I - The Elder Trolls IV: Oblivon CodeForces - 73A 
+把x*y*z的三维物体切割k次(按面割) 最多可以切成多少块
+
+         while(x+y+z-3>k){
+             ll t=max(x,max(y,z));
+             if(t==x) x--;
+             else if(t==y) y--;
+             else z--;
+         }
+         printf("%lld\n",x*y*z);
+      
+ ### J - Watching Fireworks is Fun CodeForces - 372C 
+ dp+单调队列//todo
+ ### K - Playing with Permutations CodeForces - 251B 
+      #
+      #
+      
