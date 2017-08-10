@@ -46,6 +46,8 @@ SG (和记忆化搜索？？)
       else if((b*b-1)/(b%2+1)%d==0) printf("6-type\n");
       else printf("7-type\n");
       
-### F F - Bear in the Field CodeForces - 385E 
+### F - Bear in the Field CodeForces - 385E 
 考虑熊移动有一定的规律性/可以规律表示<br>
-矩阵快速幂 构造矩阵即可
+矩阵快速幂 构造矩阵即可<br>
+矩阵struct不初始化0也会WA... 注意了 标准化过程
+
