@@ -1,6 +1,6 @@
 ## 题目链接 https://vjudge.net/contest/167880
-BC      <br>
-*E*
+BCEG      <br>
+*E AC自动机  F 后缀自动机* 
 
 ### A - Assignment HDU - 5289 
 输入一个数列 求有多少个连续区间满足区间最大最小值之差小于k<br>
@@ -36,3 +36,4 @@ AC自动机裸题<br> //todo
 后缀自动机吧应该 好像Trie也能过todo
 
 ### G - Hack it! HDU - 5397 
+用上了优先队列?..但具体怎么搞不知道啊..//todo
