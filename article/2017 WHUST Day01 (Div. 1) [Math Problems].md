@@ -1,5 +1,5 @@
 ## 题目链接 https://vjudge.net/contest/167878#problem
-BCG
+BCGJ
 
 ### A - Arif in Dhaka (First Love Part 2) UVA - 10294 
 polya定理 <br>
@@ -72,6 +72,5 @@ SG (和记忆化搜索？？)
  ### J - Watching Fireworks is Fun CodeForces - 372C 
  dp+单调队列//todo
  ### K - Playing with Permutations CodeForces - 251B 
-      #
-      #
+ 模拟置换即可
       
