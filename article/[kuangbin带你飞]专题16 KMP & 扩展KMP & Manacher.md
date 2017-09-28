@@ -100,4 +100,62 @@ kmp+dp<br>
         
 将字符串解密然后模版即可
         
+        
+<br><br><br><br>
+### S - Best Reward HDU - 3613 
+先求manacher 再暴力分割一下
+
+### T - Finding Palindromes POJ - 3376 
+字典树//todo
+
+### U - Palindrome POJ - 3974 
+求最长回文串长度 可以直接在manacher函数内得到
       
+        for(int i=0;i<l;i++){
+              mp[i]=mx>i?min(mp[2*id-i],mx-i):1;
+              while(ma[i+mp[i]]==ma[i-mp[i]]) mp[i]++;
+              ans=max(ans,mp[i]-1);
+              if(i+mp[i]>mx){
+                  mx=i+mp[i];
+                  id=i;
+              }
+         }
+      
+### V - 吉哥系列故事――完美队形II HDU - 4513 
+manacher稍微变形 要求数的大小对应 加一行即可
+              
+              
+              for(int i=0;i<l;i++){
+                    mp[i]=mx>i?min(mp[2*id-i],mx-i):1;
+                    while(ma[i+mp[i]]==ma[i-mp[i]]&& ma[i + mp[i]] <= ma[i + mp[i] - 2]){ ／
+                              //attention
+                          mp[i]++;
+                    }
+                    ans=max(ans,mp[i]-1);
+                    if(i+mp[i]>mx){
+                        mx=i+mp[i];
+                        id=i;
+                    }
+              }
+              
+### W - Girls' research HDU - 3294 
+预处理 求最长回文串起始位置并输出
+                  
+            int x=(rid-rmx+1)/2-1,y=(rid+rmx-1)/2-1;
+            printf("%d %d\n",x,y);
+            for(int i=(rid-rmx+1);i<=(rid+rmx-1);i++){
+                if(ma[i]!='#'&&ma[i]!='$') printf("%c",ma[i]);
+            }
+            
+### Y - Wow! Such Doge! HDU - 4847 
+字符串 问里面有几个doge（不区分大小写）<br>
+水水水 输入输出
+
+### Z - Theme Section HDU - 4763 
+给定一个字符串，找出能构成"EAEBE"形式的字符串的E的最长长度
+(给出一个串 求出最长的一个字串 使得他是原串的前缀 也是后缀 并且在中间也能找到一个该串 三个串不能重合)<br>
+
+            
+            首先求出给定主串的next数组 可以确定的是 若主串符合EAEBE形式 
+            那么设next[len]==i，则在范围j属于[2*i, len-i]范围内一定有next[j]==i，这样题目就可解了
+            
