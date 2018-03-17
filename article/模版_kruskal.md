@@ -14,7 +14,7 @@
     }
     int find(int x){
         if(father[x]==x) return x;
-        return find(father[x]);
+        return father[x]=find(father[x]);
     }
     void addedge(int u,int v,int w){
         edge[tot].u=u,edge[tot].v=v,edge[tot++].w=w;
